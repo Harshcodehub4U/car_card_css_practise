@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(photo/farabg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.head1{
+    font-family: 'Black Ops One', system-ui;
+    font-size: 60px;
+    color: goldenrod;
+    text-shadow: 5px 5px 5px silver;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.container1 div{
+    border: 3px solid  white;
+    width: 35%;
+    margin: auto;
+    border-radius: 30px;
+    height: 400px;
+    transition: all 0.7s;
+}
+.container1 div:hover{
+    background-color: rgba(133, 88, 28, 0.178);
+    backdrop-filter: blur(10px);
+}
+.container1 div>img{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    filter: blur(10px);
+    transition: all 0.7s;
+}
+.container1 div>img:hover{
+    transform:translateX(120px) scale(2) rotate(360deg);
+    border-radius: 20px;
+    filter: blur(0);
+    box-shadow: 20px 20px 30px black;
+    
+}
+.container1 div h1{
+    color: antiquewhite;
+    text-shadow: 2px 2px 4px  black;
+    text-align: center;    
+}
+.container1 div p{
+    color: brown;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
